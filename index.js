@@ -1,5 +1,6 @@
 const express = require('express');
 const mongoose = require('mongoose');
+const cors = require('cors');
 const helmet = require('helmet');
 const apiTableRoute = require('./routes/api-table');
 const errorHandler = require('./middleware/error');
@@ -9,6 +10,8 @@ const PORT = process.env.PORT || 3000;
 const app = express();
 
 app.use(cors());
+
+app.use(express.json());
 
 app.use(helmet());
 
