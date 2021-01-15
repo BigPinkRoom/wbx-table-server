@@ -1,9 +1,8 @@
 const { Schema, model } = require('mongoose');
 
 const tableSchema = new Schema({
-  data: {
-    type: Data,
-    required: true,
+  date: {
+    type: String,
   },
   title: {
     type: String,
