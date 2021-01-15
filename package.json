@@ -1,0 +1,30 @@
+{
+  "name": "wbx-table-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BigPinkRoom/wbx-table-server.git"
+  },
+  "keywords": [
+    "node.js"
+  ],
+  "author": "Oleg L<newitmessages@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BigPinkRoom/wbx-table-server/issues"
+  },
+  "homepage": "https://github.com/BigPinkRoom/wbx-table-server#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "helmet": "^4.3.1",
+    "mongoose": "^5.11.12"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
