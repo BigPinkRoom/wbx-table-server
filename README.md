@@ -6,17 +6,10 @@
 
 - Сервер расположен на бесплатном тарифе Heroku, поэтому "засыпает" каждые 30 минут. Первый запуск сервера может занимать до 15 секунд.
 
-<<<<<<< HEAD
-## Особенности
-
-- При get-запросе на <a href="https://wbx-table-server.herokuapp.com/api/table">https://wbx-table-server.herokuapp.com/api/table</a>, сервер отдаёт тестовые данные для клиента.
-- Данные возвращаются из БД на MongoDB.
-=======
 ## Функционал
 
 - При get-запросе на <a href="https://wbx-table-server.herokuapp.com/api/table">https://wbx-table-server.herokuapp.com/api/table</a>, сервер отдаёт тестовые данные для клиента.
 - Данные возвращаются из БД (MongoDB).
->>>>>>> develop
 
 ### При разработке пользовался:
 
